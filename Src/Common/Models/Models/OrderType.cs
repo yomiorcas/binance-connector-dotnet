@@ -15,6 +15,10 @@ namespace Binance.Spot.Models
         public static OrderType TAKE_PROFIT_LIMIT { get => new OrderType("TAKE_PROFIT_LIMIT"); }
         public static OrderType LIMIT_MAKER { get => new OrderType("LIMIT_MAKER"); }
 
+        public static OrderType TAKE_PROFIT_MARKET { get => new OrderType("TAKE_PROFIT_MARKET"); }
+        public static OrderType STOP_MARKET { get => new OrderType("STOP_MARKET"); }
+        public static OrderType STOP { get => new OrderType("STOP"); }
+
         public string Value { get; private set; }
 
         public static implicit operator string(OrderType enm) => enm.Value;

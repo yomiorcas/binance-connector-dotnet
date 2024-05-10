@@ -11,7 +11,7 @@ namespace Binance.Common
     {
         private byte[] secret;
 
-        public BinanceHmac(string secret)
+        public BinanceHmac(string secret = null)
         {
             this.secret = secret != null ? Encoding.UTF8.GetBytes(secret) : null;
         }
