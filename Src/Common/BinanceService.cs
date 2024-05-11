@@ -176,7 +176,6 @@ namespace Binance.Common
 
                         httpException.StatusCode = statusCode;
                         httpException.Headers = response.Headers.ToDictionary(a => a.Key, a => a.Value);
-
                         throw httpException;
                     }
                 }
