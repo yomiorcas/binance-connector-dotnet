@@ -182,7 +182,7 @@ namespace Binance.Futures
         /// <param name="requestId">Request ID.</param>
         /// <param name="cancellationToken">Cancellation token.</param>
         /// <returns>Order result.</returns>
-        public async Task NewOrderAsync(string symbol, Side side, OrderType type, PositionSide? positionSide = null, string workingType = "CONTRACT_PRICE", TimeInForce? timeInForce = null, decimal? price = null, decimal? quantity = null, decimal? quoteOrderQty = null, string newClientOrderId = null, NewOrderResponseType? newOrderRespType = null, decimal? stopPrice = null, bool? closePosition = null, bool? priceProtect = null, long? goodTillDate = null, SelfTradePreventionMode? selfTradePreventionMode = null, long? recvWindow = null, object requestId = null, CancellationToken cancellationToken = default(CancellationToken))
+        public async Task NewOrderAsync(string symbol, Side side, OrderType type, PositionSide? positionSide = null, string workingType = "CONTRACT_PRICE", TimeInForce? timeInForce = null, decimal? price = null, decimal? quantity = null, decimal? quoteOrderQty = null, string newClientOrderId = null, NewOrderResponseType? newOrderRespType = null, decimal? stopPrice = null, bool? closePosition = null, bool? priceProtect = null, long? goodTillDate = null, SelfTradePreventionMode? selfTradePreventionMode = null, long? recvWindow = null, object requestId = null, bool? reduceOnly = null, CancellationToken cancellationToken = default(CancellationToken))
         {
             Dictionary<string, object> parameters = new Dictionary<string, object>
             {
@@ -203,6 +203,7 @@ namespace Binance.Futures
                 { "recvWindow", recvWindow },
                 { "workingType", workingType },
                 { "positionSide", positionSide},
+                { "reduceOnly",reduceOnly}
             };
 
             await this.wsApi.SendSignedAsync("order.place", parameters, requestId, cancellationToken);

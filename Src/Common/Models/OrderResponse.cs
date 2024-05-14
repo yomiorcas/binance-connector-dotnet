@@ -10,6 +10,7 @@ namespace Binance.Spot
         public string clientOrderId { get; set; }
         public decimal price { get; set; }
         public decimal avgPrice { get; set; }
+        public decimal stopPrice { get; set; }
         public string symbol { get; set; }
         public long updateTime { get; set; }
         public string origQty { get; set; }
