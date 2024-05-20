@@ -69,6 +69,7 @@ namespace Binance.Common
             }
 
             queryStringBuilder.Append("signature=").Append(HttpUtility.UrlEncode(signature));
+            queryStringBuilder.Append("timestamp=").Append(DateTimeOffset.UtcNow.ToUnixTimeMilliseconds());
 
             requestUri += "?" + queryStringBuilder.ToString();
 
@@ -173,7 +174,7 @@ namespace Binance.Common
                         {
                             httpException = new BinanceServerException(contentString);
                         }
-
+                        Console.WriteLine(contentString);
                         httpException.StatusCode = statusCode;
                         httpException.Headers = response.Headers.ToDictionary(a => a.Key, a => a.Value);
                         throw httpException;

@@ -3,6 +3,7 @@ namespace Binance.Spot
     using System;
     using System.Collections.Generic;
     using System.Net.Http;
+    using System.Threading;
     using System.Threading.Tasks;
     using Binance.Common;
     using Binance.Spot.Models;
@@ -25,6 +26,7 @@ namespace Binance.Spot
         }
 
         private const string KLINE_CANDLESTICK_DATA = "/fapi/v1/klines";
+        private const string EXCHANGE_INFO_DATA = "/fapi/v1/exchangeInfo";
 
         /// <summary>
         /// Kline/candlestick bars for a symbol.<para />
@@ -50,6 +52,30 @@ namespace Binance.Spot
                     { "startTime", startTime },
                     { "endTime", endTime },
                     { "limit", limit },
+                });
+
+            return result;
+        }
+
+        private const string EXCHANGE_INFORMATION = "/fapi/v1/exchangeInfo";
+
+        /// <summary>
+        /// Current exchange trading rules and symbol information.<para />
+        /// - If any symbol provided in either symbol or symbols do not exist, the endpoint will throw an error.<para />
+        /// Weight(IP): 10.
+        /// </summary>
+        /// <param name="symbol">Trading symbol, e.g. BNBUSDT.</param>
+        /// <param name="symbols"></param>
+        /// <returns>Current exchange trading rules and symbol information.</returns>
+        public async Task<string> ExchangeInformation(string symbol = null, string symbols = null)
+        {
+            var result = await this.SendSignedAsync<string>(
+                EXCHANGE_INFORMATION,
+                HttpMethod.Get,
+                query: new Dictionary<string, object>
+                {
+                    { "symbol", symbol },
+                    { "symbols", symbols }
                 });
 
             return result;

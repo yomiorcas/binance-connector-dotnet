@@ -17,6 +17,7 @@ namespace Binance.Spot
         public string executedQty { get; set; }
         public string cumQuote { get; set; }
         public string timeInForce { get; set; }
+        public string status { get; set; }
         public string type { get; set; }
     }
 }

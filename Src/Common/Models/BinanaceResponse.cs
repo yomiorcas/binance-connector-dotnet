@@ -13,7 +13,6 @@ namespace Binance.Spot
         public string id { get; set; }
         public int status { get; set; }
         public T result { get; set; }
-        public T response { get; set; }
         public List<RateLimit> rateLimits { get; set; }
     }
 

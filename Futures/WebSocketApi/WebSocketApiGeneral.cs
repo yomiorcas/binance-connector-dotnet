@@ -60,7 +60,7 @@ namespace Binance.Futures
             };
             BinanceParametersUtils.EnsureOnlyOneValidKey(parameters, new string[] { "symbol", "symbols", "permissions" });
 
-            await this.wsApi.SendAsync("exchangeInfo", parameters, requestId, cancellationToken);
+            await this.wsApi.SendSignedAsync("exchangeInfo", parameters, requestId, cancellationToken);
         }
     }
 }

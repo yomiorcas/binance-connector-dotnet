@@ -5,7 +5,7 @@ namespace Binance.Futures
 
     public class WebSocketApi : BinanceWebSocketApi
     {
-        private const string DEFAULT_WEBSOCKET_API_BASE_URL = "wss://ws-api.binance.com:443/ws-api/v3";
+        private const string DEFAULT_WEBSOCKET_API_BASE_URL = "wss://ws-fapi.binance.com:443/ws-api/v3";
         private WebSocketApiGeneral general;
         private WebSocketApiMarket market;
         private WebSocketApiAccountTrade accountTrade;
