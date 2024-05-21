@@ -26,7 +26,6 @@ namespace Binance.Spot
         }
 
         private const string KLINE_CANDLESTICK_DATA = "/fapi/v1/klines";
-        private const string EXCHANGE_INFO_DATA = "/fapi/v1/exchangeInfo";
 
         /// <summary>
         /// Kline/candlestick bars for a symbol.<para />
@@ -76,6 +75,68 @@ namespace Binance.Spot
                 {
                     { "symbol", symbol },
                     { "symbols", symbols }
+                });
+
+            return result;
+        }
+
+        private const string RECENT_TRADES_LIST = "/fapi/v1/trades";
+
+        /// <summary>
+        /// Get recent trades.<para />
+        /// Weight(IP): 1.
+        /// </summary>
+        /// <param name="symbol">Trading symbol, e.g. BNBUSDT.</param>
+        /// <param name="limit">Default 500; max 1000.</param>
+        /// <returns>Trade list.</returns>
+        public async Task<string> RecentTradesList(string symbol, int? limit = null)
+        {
+            var result = await this.SendSignedAsync<string>(
+                RECENT_TRADES_LIST,
+                HttpMethod.Get,
+                query: new Dictionary<string, object>
+                {
+                    { "symbol", symbol },
+                    { "limit", limit },
+                });
+
+            return result;
+        }
+
+        private const string POSITION_RISKS = "/fapi/v2/positionRisk";
+
+        /// <summary>
+        /// Get POSITION RISKS.<para />
+        /// Weight(IP): 1.
+        /// </summary>
+        /// <param name="symbol">Trading symbol, e.g. BNBUSDT.</param>
+        /// <returns>list.</returns>
+        public async Task<string> GetPositionRisk(string symbol)
+        {
+            var result = await this.SendSignedAsync<string>(
+                POSITION_RISKS,
+                HttpMethod.Get,
+                query: new Dictionary<string, object>
+                {
+                    { "symbol", symbol },
+                });
+
+            return result;
+        }
+
+        private const string USER_TRADES = "/fapi/v1/userTrades";
+
+        public async Task<string> GetUserTrades(string symbol,long? startTime = null, long? endTime = null, int? limit = null)
+        {
+            var result = await this.SendSignedAsync<string>(
+                USER_TRADES,
+                HttpMethod.Get,
+                query: new Dictionary<string, object>
+                {
+                    { "symbol", symbol },
+                    { "limit", limit },
+                    { "endTime", endTime },
+                    { "startTime", startTime },
                 });
 
             return result;

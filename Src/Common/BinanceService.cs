@@ -54,13 +54,15 @@ namespace Binance.Common
 
         protected async Task<T> SendSignedAsync<T>(string requestUri, HttpMethod httpMethod, Dictionary<string, object> query = null, object content = null)
         {
-            StringBuilder queryStringBuilder = new StringBuilder();
-
-            if (!(query is null))
+            if (this.signatureService == null)
             {
-                queryStringBuilder = this.BuildQueryString(query, queryStringBuilder);
+                throw new ArgumentNullException("Initiate API with IBinanceSignatureService to perfom this request");
             }
 
+            StringBuilder queryStringBuilder = new StringBuilder();
+
+            query.Add("timestamp", DateTimeOffset.UtcNow.ToUnixTimeMilliseconds());
+            queryStringBuilder = this.BuildQueryString(query, queryStringBuilder);
             string signature = this.signatureService.Sign(queryStringBuilder.ToString());
 
             if (queryStringBuilder.Length > 0)
@@ -68,11 +70,10 @@ namespace Binance.Common
                 queryStringBuilder.Append("&");
             }
 
-            queryStringBuilder.Append("signature=").Append(HttpUtility.UrlEncode(signature));
-            queryStringBuilder.Append("timestamp=").Append(DateTimeOffset.UtcNow.ToUnixTimeMilliseconds());
+            queryStringBuilder.Append("signature=").Append(HttpUtility.UrlEncode(signature));            
 
             requestUri += "?" + queryStringBuilder.ToString();
-
+            Console.WriteLine(requestUri);
             return await this.SendAsync<T>(requestUri, httpMethod, content);
         }
 
