@@ -141,5 +141,20 @@ namespace Binance.Spot
 
             return result;
         }
+
+        private const string DELETE_OPEN_ORDERS = "/fapi/v1/allOpenOrders";
+
+        public async Task<string> DeleteOpenOrders(string symbol)
+        {
+            var result = await this.SendSignedAsync<string>(
+                DELETE_OPEN_ORDERS,
+                HttpMethod.Delete,
+                query: new Dictionary<string, object>
+                {
+                    { "symbol", symbol },
+                });
+
+            return result;
+        }
     }
 }

@@ -73,7 +73,6 @@ namespace Binance.Common
             queryStringBuilder.Append("signature=").Append(HttpUtility.UrlEncode(signature));            
 
             requestUri += "?" + queryStringBuilder.ToString();
-            Console.WriteLine(requestUri);
             return await this.SendAsync<T>(requestUri, httpMethod, content);
         }
 
