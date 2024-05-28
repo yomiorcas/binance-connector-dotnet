@@ -119,6 +119,7 @@ namespace Binance.Spot
                 query: new Dictionary<string, object>
                 {
                     { "symbol", symbol },
+                    { "recvWindow", 20000}
                 });
 
             return result;

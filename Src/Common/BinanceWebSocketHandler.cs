@@ -30,7 +30,11 @@ namespace Binance.Common
 
         public async Task ConnectAsync(Uri uri, CancellationToken cancellationToken)
         {
-            await this.webSocket.ConnectAsync(uri, cancellationToken);
+            Console.WriteLine($"State: {this.webSocket.State}");
+            if (this.webSocket.State != WebSocketState.Open)
+            {
+                await this.webSocket.ConnectAsync(uri, cancellationToken);
+            }
         }
 
         public async Task CloseOutputAsync(WebSocketCloseStatus closeStatus, string statusDescription, CancellationToken cancellationToken)
