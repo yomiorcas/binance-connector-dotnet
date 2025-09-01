@@ -8,6 +8,7 @@ namespace Binance.Spot
 {
     public class AccountInfoResponse
     {
+        public decimal availableBalance { get; set; }
         public List<TradePosition> positions { get; set; }
     }
 }

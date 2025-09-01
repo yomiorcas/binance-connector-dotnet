@@ -157,5 +157,59 @@ namespace Binance.Spot
 
             return result;
         }
+
+        private const string MODIFY_ORDER = "/fapi/v1/order";
+
+        public async Task<string> ModifyOrder(string symbol, string orderid, Side side, decimal quantity, decimal price)
+        {
+            var result = await this.SendSignedAsync<string>(
+                MODIFY_ORDER,
+                HttpMethod.Put,
+                query: new Dictionary<string, object>
+                {
+                    { "symbol", symbol },
+                    { "side", side.Value },
+                    { "quantity", quantity },
+                    { "orderid", orderid },
+                    { "price", price },
+                });
+
+            return result;
+        }
+
+        private const string CANCEL_AND_REPLACE_ORDER = "/fapi/v3/order/cancelReplace";
+
+        public async Task<string> CancelAndReplaceOrder(string symbol, Side side, OrderType type, decimal stopPrice)
+        {
+            var result = await this.SendSignedAsync<string>(
+                CANCEL_AND_REPLACE_ORDER,
+                HttpMethod.Post,
+                query: new Dictionary<string, object>
+                {
+                    { "symbol", symbol },
+                    { "side", side.Value },
+                    { "type",type },
+                    { "cancelReplaceMode", "ALLOW_FAILURES" },
+                    { "stopPrice", stopPrice },
+                });
+
+            return result;
+        }
+
+        private const string UPDATE_LEVERAGE = "/fapi/v1/leverage";
+
+        public async Task<string> UpdateLeverage(string symbol, decimal leverage)
+        {
+            var result = await this.SendSignedAsync<string>(
+                UPDATE_LEVERAGE,
+                HttpMethod.Post,
+                query: new Dictionary<string, object>
+                {
+                    { "symbol", symbol },
+                    { "leverage", leverage }
+                });
+
+            return result;
+        }
     }
 }

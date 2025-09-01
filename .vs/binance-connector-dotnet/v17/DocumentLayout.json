@@ -1,0 +1,315 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\projects\\binance-connector-dotnet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D8336CEE-E1CE-4829-98BA-B9898422E626}|Src\\Common\\Common.csproj|c:\\projects\\binance-connector-dotnet\\src\\common\\models\\futuremarket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8336CEE-E1CE-4829-98BA-B9898422E626}|Src\\Common\\Common.csproj|solutionrelative:src\\common\\models\\futuremarket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8336CEE-E1CE-4829-98BA-B9898422E626}|Src\\Common\\Common.csproj|c:\\projects\\binance-connector-dotnet\\src\\common\\binancewebsocketapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8336CEE-E1CE-4829-98BA-B9898422E626}|Src\\Common\\Common.csproj|solutionrelative:src\\common\\binancewebsocketapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03C729C3-3371-4D8D-A41D-D1B0FB1526F1}|Src\\Spot\\Spot.csproj|c:\\projects\\binance-connector-dotnet\\src\\spot\\websocketapi\\websocketapiaccounttrade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03C729C3-3371-4D8D-A41D-D1B0FB1526F1}|Src\\Spot\\Spot.csproj|solutionrelative:src\\spot\\websocketapi\\websocketapiaccounttrade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D94A3B-7F85-411F-8235-72DA1B29800B}|Examples\\CSharp\\CSharp.csproj|c:\\projects\\binance-connector-dotnet\\examples\\csharp\\websocketapi\\accounttrade\\newocoorder_example.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D94A3B-7F85-411F-8235-72DA1B29800B}|Examples\\CSharp\\CSharp.csproj|solutionrelative:examples\\csharp\\websocketapi\\accounttrade\\newocoorder_example.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D94A3B-7F85-411F-8235-72DA1B29800B}|Examples\\CSharp\\CSharp.csproj|c:\\projects\\binance-connector-dotnet\\examples\\csharp\\websocketapi\\accounttrade\\accountorderratelimits_example.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D94A3B-7F85-411F-8235-72DA1B29800B}|Examples\\CSharp\\CSharp.csproj|solutionrelative:examples\\csharp\\websocketapi\\accounttrade\\accountorderratelimits_example.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D94A3B-7F85-411F-8235-72DA1B29800B}|Examples\\CSharp\\CSharp.csproj|c:\\projects\\binance-connector-dotnet\\examples\\csharp\\websocketapi\\accounttrade\\accountinfo_example.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D94A3B-7F85-411F-8235-72DA1B29800B}|Examples\\CSharp\\CSharp.csproj|solutionrelative:examples\\csharp\\websocketapi\\accounttrade\\accountinfo_example.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FA5BC87-65DD-4FF1-9BA5-FBFA2FC58790}|Futures\\Futures.csproj|c:\\projects\\binance-connector-dotnet\\futures\\websocketapi\\websocketapigeneral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FA5BC87-65DD-4FF1-9BA5-FBFA2FC58790}|Futures\\Futures.csproj|solutionrelative:futures\\websocketapi\\websocketapigeneral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8336CEE-E1CE-4829-98BA-B9898422E626}|Src\\Common\\Common.csproj|c:\\projects\\binance-connector-dotnet\\src\\common\\models\\accountinforesponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8336CEE-E1CE-4829-98BA-B9898422E626}|Src\\Common\\Common.csproj|solutionrelative:src\\common\\models\\accountinforesponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D94A3B-7F85-411F-8235-72DA1B29800B}|Examples\\CSharp\\CSharp.csproj|c:\\projects\\binance-connector-dotnet\\examples\\csharp\\websocketapi\\accounttrade\\cancelallopenordersonasymbol_example.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D94A3B-7F85-411F-8235-72DA1B29800B}|Examples\\CSharp\\CSharp.csproj|solutionrelative:examples\\csharp\\websocketapi\\accounttrade\\cancelallopenordersonasymbol_example.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FA5BC87-65DD-4FF1-9BA5-FBFA2FC58790}|Futures\\Futures.csproj|c:\\projects\\binance-connector-dotnet\\futures\\websocketapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FA5BC87-65DD-4FF1-9BA5-FBFA2FC58790}|Futures\\Futures.csproj|solutionrelative:futures\\websocketapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8336CEE-E1CE-4829-98BA-B9898422E626}|Src\\Common\\Common.csproj|c:\\projects\\binance-connector-dotnet\\src\\common\\models\\market.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8336CEE-E1CE-4829-98BA-B9898422E626}|Src\\Common\\Common.csproj|solutionrelative:src\\common\\models\\market.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8336CEE-E1CE-4829-98BA-B9898422E626}|Src\\Common\\Common.csproj|c:\\projects\\binance-connector-dotnet\\src\\common\\binanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8336CEE-E1CE-4829-98BA-B9898422E626}|Src\\Common\\Common.csproj|solutionrelative:src\\common\\binanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8336CEE-E1CE-4829-98BA-B9898422E626}|Src\\Common\\Common.csproj|c:\\projects\\binance-connector-dotnet\\src\\common\\binancewebsockethandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8336CEE-E1CE-4829-98BA-B9898422E626}|Src\\Common\\Common.csproj|solutionrelative:src\\common\\binancewebsockethandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FA5BC87-65DD-4FF1-9BA5-FBFA2FC58790}|Futures\\Futures.csproj|c:\\projects\\binance-connector-dotnet\\futures\\websocketapi\\websocketapiaccounttrade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FA5BC87-65DD-4FF1-9BA5-FBFA2FC58790}|Futures\\Futures.csproj|solutionrelative:futures\\websocketapi\\websocketapiaccounttrade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8336CEE-E1CE-4829-98BA-B9898422E626}|Src\\Common\\Common.csproj|c:\\projects\\binance-connector-dotnet\\src\\common\\models\\pingresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8336CEE-E1CE-4829-98BA-B9898422E626}|Src\\Common\\Common.csproj|solutionrelative:src\\common\\models\\pingresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03C729C3-3371-4D8D-A41D-D1B0FB1526F1}|Src\\Spot\\Spot.csproj|c:\\projects\\binance-connector-dotnet\\src\\spot\\websocketapi\\websocketapimarket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03C729C3-3371-4D8D-A41D-D1B0FB1526F1}|Src\\Spot\\Spot.csproj|solutionrelative:src\\spot\\websocketapi\\websocketapimarket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 16,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CancelAllOpenOrdersOnASymbol_Example.cs",
+              "DocumentMoniker": "C:\\projects\\binance-connector-dotnet\\Examples\\CSharp\\WebSocketApi\\AccountTrade\\CancelAllOpenOrdersOnASymbol_Example.cs",
+              "RelativeDocumentMoniker": "Examples\\CSharp\\WebSocketApi\\AccountTrade\\CancelAllOpenOrdersOnASymbol_Example.cs",
+              "ToolTip": "C:\\projects\\binance-connector-dotnet\\Examples\\CSharp\\WebSocketApi\\AccountTrade\\CancelAllOpenOrdersOnASymbol_Example.cs",
+              "RelativeToolTip": "Examples\\CSharp\\WebSocketApi\\AccountTrade\\CancelAllOpenOrdersOnASymbol_Example.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T22:27:27.376Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountOrderRateLimits_Example.cs",
+              "DocumentMoniker": "C:\\projects\\binance-connector-dotnet\\Examples\\CSharp\\WebSocketApi\\AccountTrade\\AccountOrderRateLimits_Example.cs",
+              "RelativeDocumentMoniker": "Examples\\CSharp\\WebSocketApi\\AccountTrade\\AccountOrderRateLimits_Example.cs",
+              "ToolTip": "C:\\projects\\binance-connector-dotnet\\Examples\\CSharp\\WebSocketApi\\AccountTrade\\AccountOrderRateLimits_Example.cs",
+              "RelativeToolTip": "Examples\\CSharp\\WebSocketApi\\AccountTrade\\AccountOrderRateLimits_Example.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T20:10:18.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccountInfo_Example.cs",
+              "DocumentMoniker": "C:\\projects\\binance-connector-dotnet\\Examples\\CSharp\\WebSocketApi\\AccountTrade\\AccountInfo_Example.cs",
+              "RelativeDocumentMoniker": "Examples\\CSharp\\WebSocketApi\\AccountTrade\\AccountInfo_Example.cs",
+              "ToolTip": "C:\\projects\\binance-connector-dotnet\\Examples\\CSharp\\WebSocketApi\\AccountTrade\\AccountInfo_Example.cs",
+              "RelativeToolTip": "Examples\\CSharp\\WebSocketApi\\AccountTrade\\AccountInfo_Example.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T20:09:38.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WebSocketApiAccountTrade.cs",
+              "DocumentMoniker": "C:\\projects\\binance-connector-dotnet\\Src\\Spot\\WebSocketApi\\WebSocketApiAccountTrade.cs",
+              "RelativeDocumentMoniker": "Src\\Spot\\WebSocketApi\\WebSocketApiAccountTrade.cs",
+              "ToolTip": "C:\\projects\\binance-connector-dotnet\\Src\\Spot\\WebSocketApi\\WebSocketApiAccountTrade.cs",
+              "RelativeToolTip": "Src\\Spot\\WebSocketApi\\WebSocketApiAccountTrade.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T22:25:07.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AccountInfoResponse.cs",
+              "DocumentMoniker": "C:\\projects\\binance-connector-dotnet\\Src\\Common\\Models\\AccountInfoResponse.cs",
+              "RelativeDocumentMoniker": "Src\\Common\\Models\\AccountInfoResponse.cs",
+              "ToolTip": "C:\\projects\\binance-connector-dotnet\\Src\\Common\\Models\\AccountInfoResponse.cs",
+              "RelativeToolTip": "Src\\Common\\Models\\AccountInfoResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T17:43:38.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WebSocketApiGeneral.cs",
+              "DocumentMoniker": "C:\\projects\\binance-connector-dotnet\\Futures\\WebSocketApi\\WebSocketApiGeneral.cs",
+              "RelativeDocumentMoniker": "Futures\\WebSocketApi\\WebSocketApiGeneral.cs",
+              "ToolTip": "C:\\projects\\binance-connector-dotnet\\Futures\\WebSocketApi\\WebSocketApiGeneral.cs",
+              "RelativeToolTip": "Futures\\WebSocketApi\\WebSocketApiGeneral.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAD4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T19:50:54.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "WebSocketApiMarket.cs",
+              "DocumentMoniker": "C:\\projects\\binance-connector-dotnet\\Src\\Spot\\WebSocketApi\\WebSocketApiMarket.cs",
+              "RelativeDocumentMoniker": "Src\\Spot\\WebSocketApi\\WebSocketApiMarket.cs",
+              "ToolTip": "C:\\projects\\binance-connector-dotnet\\Src\\Spot\\WebSocketApi\\WebSocketApiMarket.cs",
+              "RelativeToolTip": "Src\\Spot\\WebSocketApi\\WebSocketApiMarket.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T18:16:43.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BinanceWebSocketApi.cs",
+              "DocumentMoniker": "C:\\projects\\binance-connector-dotnet\\Src\\Common\\BinanceWebSocketApi.cs",
+              "RelativeDocumentMoniker": "Src\\Common\\BinanceWebSocketApi.cs",
+              "ToolTip": "C:\\projects\\binance-connector-dotnet\\Src\\Common\\BinanceWebSocketApi.cs",
+              "RelativeToolTip": "Src\\Common\\BinanceWebSocketApi.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJUAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T21:31:24.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FutureMarket.cs",
+              "DocumentMoniker": "C:\\projects\\binance-connector-dotnet\\Src\\Common\\Models\\FutureMarket.cs",
+              "RelativeDocumentMoniker": "Src\\Common\\Models\\FutureMarket.cs",
+              "ToolTip": "C:\\projects\\binance-connector-dotnet\\Src\\Common\\Models\\FutureMarket.cs",
+              "RelativeToolTip": "Src\\Common\\Models\\FutureMarket.cs",
+              "ViewState": "AQIAAKsAAAAAAAAAAAAkwMsAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T22:59:54.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NewOcoOrder_Example.cs",
+              "DocumentMoniker": "C:\\projects\\binance-connector-dotnet\\Examples\\CSharp\\WebSocketApi\\AccountTrade\\NewOcoOrder_Example.cs",
+              "RelativeDocumentMoniker": "Examples\\CSharp\\WebSocketApi\\AccountTrade\\NewOcoOrder_Example.cs",
+              "ToolTip": "C:\\projects\\binance-connector-dotnet\\Examples\\CSharp\\WebSocketApi\\AccountTrade\\NewOcoOrder_Example.cs",
+              "RelativeToolTip": "Examples\\CSharp\\WebSocketApi\\AccountTrade\\NewOcoOrder_Example.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T20:10:22.41Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Market.cs",
+              "DocumentMoniker": "C:\\projects\\binance-connector-dotnet\\Src\\Common\\Models\\Market.cs",
+              "RelativeDocumentMoniker": "Src\\Common\\Models\\Market.cs",
+              "ToolTip": "C:\\projects\\binance-connector-dotnet\\Src\\Common\\Models\\Market.cs",
+              "RelativeToolTip": "Src\\Common\\Models\\Market.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAIIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T18:59:17.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WebSocketApi.cs",
+              "DocumentMoniker": "C:\\projects\\binance-connector-dotnet\\Futures\\WebSocketApi.cs",
+              "RelativeDocumentMoniker": "Futures\\WebSocketApi.cs",
+              "ToolTip": "C:\\projects\\binance-connector-dotnet\\Futures\\WebSocketApi.cs",
+              "RelativeToolTip": "Futures\\WebSocketApi.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABAAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T21:55:55.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BinanceService.cs",
+              "DocumentMoniker": "C:\\projects\\binance-connector-dotnet\\Src\\Common\\BinanceService.cs",
+              "RelativeDocumentMoniker": "Src\\Common\\BinanceService.cs",
+              "ToolTip": "C:\\projects\\binance-connector-dotnet\\Src\\Common\\BinanceService.cs",
+              "RelativeToolTip": "Src\\Common\\BinanceService.cs",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAAAHMAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T22:44:02.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PingResponse.cs",
+              "DocumentMoniker": "C:\\projects\\binance-connector-dotnet\\Src\\Common\\Models\\PingResponse.cs",
+              "RelativeDocumentMoniker": "Src\\Common\\Models\\PingResponse.cs",
+              "ToolTip": "C:\\projects\\binance-connector-dotnet\\Src\\Common\\Models\\PingResponse.cs",
+              "RelativeToolTip": "Src\\Common\\Models\\PingResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T16:36:30.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BinanceWebSocketHandler.cs",
+              "DocumentMoniker": "C:\\projects\\binance-connector-dotnet\\Src\\Common\\BinanceWebSocketHandler.cs",
+              "RelativeDocumentMoniker": "Src\\Common\\BinanceWebSocketHandler.cs",
+              "ToolTip": "C:\\projects\\binance-connector-dotnet\\Src\\Common\\BinanceWebSocketHandler.cs",
+              "RelativeToolTip": "Src\\Common\\BinanceWebSocketHandler.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T12:49:00.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "WebSocketApiAccountTrade.cs",
+              "DocumentMoniker": "C:\\projects\\binance-connector-dotnet\\Futures\\WebSocketApi\\WebSocketApiAccountTrade.cs",
+              "RelativeDocumentMoniker": "Futures\\WebSocketApi\\WebSocketApiAccountTrade.cs",
+              "ToolTip": "C:\\projects\\binance-connector-dotnet\\Futures\\WebSocketApi\\WebSocketApiAccountTrade.cs",
+              "RelativeToolTip": "Futures\\WebSocketApi\\WebSocketApiAccountTrade.cs",
+              "ViewState": "AQIAALQAAAAAAAAAAAAAANAAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T22:10:42.748Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
